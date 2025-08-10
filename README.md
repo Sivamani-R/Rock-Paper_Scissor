@@ -23,14 +23,16 @@ The game keeps track of your **Wins**, **Losses**, and **Ties** using **localSto
 
 ## 📂 Project Structure
 
+```
 RockPaperScissors/
 │
 ├── index.html # Main HTML file
 ├── styles/
 │ └── rockpaper.css # CSS styles
 ├── scripts/
-│ └── rockpaperscissors.js# JavaScript game logic
+│ └── rockpaperscissors.js # JavaScript game logic
 └── emojis/ # Emoji images for rock, paper, scissors
+```
 
 
 ---
@@ -41,12 +43,20 @@ RockPaperScissors/
    ```bash
    git clone https://github.com/<your-username>/rock-paper-scissors.git
    cd rock-paper-scissors
+   ```
 2. **Open index.html in your browser**
+   ```
    # For Mac
-  open index.html
-  
+     open index.html
+   ```
+  ```
   # For Windows
   start index.html
+```
+  
+  
+
+  
 
 ## 🎯 How to Play
 
