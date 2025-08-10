@@ -26,7 +26,7 @@ The game keeps track of your **Wins**, **Losses**, and **Ties** using **localSto
 ```
 RockPaperScissors/
 │
-├── index.html # Main HTML file
+├── rockpaperscissor.html # Main HTML file
 ├── styles/
 │ └── rockpaper.css # CSS styles
 ├── scripts/
@@ -41,17 +41,17 @@ RockPaperScissors/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/rock-paper-scissors.git
+   git clone https://github.com/Sivamani-R/Rock-Paper_Scissor.git
    cd rock-paper-scissors
    ```
-2. **Open index.html in your browser**
+2. **Open rockpaperscissor.html in your browser**
    ```
    # For Mac
-     open index.html
+     open rockpaperscissor.html
    ```
    ```
    # For Windows
-     start index.html
+     start rockpaperscissor.html
    ```
   
   
