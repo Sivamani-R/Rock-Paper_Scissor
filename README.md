@@ -49,10 +49,10 @@ RockPaperScissors/
    # For Mac
      open index.html
    ```
-  ```
-  # For Windows
-  start index.html
-```
+   ```
+     # For Windows
+     start index.html
+   ```
   
   
 
