@@ -50,7 +50,7 @@ RockPaperScissors/
      open index.html
    ```
    ```
-     # For Windows
+   # For Windows
      start index.html
    ```
   
