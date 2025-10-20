@@ -18,13 +18,23 @@ roc.addEventListener('click', () => {
 const pap = document.querySelector('.paper-button');
 pap.addEventListener('click', () => {
     playGame('paper');
-})
+});
 
 const sic = document.querySelector('.scissor-button');
 sic.addEventListener('click', () => {
     playGame('scissors');
-})
-
+});
+document.body.addEventListener('keydown',(event) => {
+    if (event.key==='r'){
+        playGame('rock');
+    }
+    else if (event.key==='p'){
+        playGame('paper');
+    }
+    else if (event.key==='s'){
+        playGame('scissors');
+    }
+});
 
 let playing = false;
 let intervalId;
@@ -126,3 +136,4 @@ function pickChoice() {
     return computerChoice;
 
 }
+
