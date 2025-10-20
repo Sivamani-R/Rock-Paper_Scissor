@@ -12,21 +12,13 @@
         font-weight: bold;
         color: white;
         ">Rock Paper Scissors</p>
-    <button class="rock-button" onclick="
-        playGame('rock');
-        
-    "><img class="rock-emoji" src="emojis/rock-emoji.png" alt="Rock"> </button>
+    <button class="rock-button"><img class=" rock-emoji" src="emojis/rock-emoji.png" alt="Rock"> </button>
 
-    <button class="paper-button" onclick="
-        playGame('paper');
-    "><img class="paper-emoji" src="emojis/paper-emoji.png" alt="Paper">
+    <button class="paper-button"><img class="paper-emoji" src="emojis/paper-emoji.png" alt="Paper">
     </button>
 
 
-    <button class="scissor-button" onclick="
-        playGame('scissors');
-    
-    "><img class="scissors-emoji" src="emojis/scissors-emoji.png" alt="Scissors"></button>
+    <button class="scissor-button"><img class="scissors-emoji" src="emojis/scissors-emoji.png" alt="Scissors"></button>
 
     <p class="js-status"></p>
     <p class="js-takes"></p>
@@ -41,6 +33,10 @@
 
         update();
     ">Reset Score</button>
+    <button class="auto-play-button" onclick="
+        autoPlay();
+    
+    ">Auto play</button>
 
     <script src="scripts/rockpaperscissor.js"></script>
 
