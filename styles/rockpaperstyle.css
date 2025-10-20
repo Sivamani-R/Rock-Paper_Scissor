@@ -40,7 +40,8 @@ img {
 
 
 
-.reset-button {
+.reset-button,
+.auto-play-button {
     font-size: 15px;
     padding: 5px 10px;
     border-radius: 0;
