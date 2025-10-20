@@ -10,8 +10,40 @@ function update() {
     htElement.innerHTML = `Wins: ${game.wins}, Lose: ${game.loose}, Tie: ${game.ties}`;
 
 }
+const roc = document.querySelector('.rock-button');
+roc.addEventListener('click', () => {
+    playGame('rock');
+})
+
+const pap = document.querySelector('.paper-button');
+pap.addEventListener('click', () => {
+    playGame('paper');
+})
+
+const sic = document.querySelector('.scissor-button');
+sic.addEventListener('click', () => {
+    playGame('scissors');
+})
 
 
+let playing = false;
+let intervalId;
+
+function autoPlay() {
+    if (!playing) {
+        intervalId = setInterval(
+            function () {
+                const move = pickChoice();
+                playGame(move);
+            }, 1000)
+        playing = true;
+    }
+    else {
+        clearInterval(intervalId);
+        playing = false;
+    }
+
+}
 
 
 function playGame(move) {
@@ -86,7 +118,7 @@ function pickChoice() {
         computerChoice = "paper";
     }
     else if (randNum >= 2 / 3 && randNum < 1) {
-        computerChoice = "paper";
+        computerChoice = "scissors";
     }
     else {
         computerChoice = "paper";
